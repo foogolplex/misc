@@ -5,7 +5,8 @@ import time
 def main():
     other_points = circle_points = 0
     points = []
-    for i in range(200):
+
+    for i in range(1000):
         x = random.uniform(-1, 1)
         y = random.uniform(-1, 1)
         point = (x, y)

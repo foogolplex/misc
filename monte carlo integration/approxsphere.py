@@ -7,7 +7,7 @@ def main():
     xs = []
     ys = []
     zs = []
-    for i in range(200):
+    for i in range(500):
         x = random.uniform(-1, 1)
         y = random.uniform(-1, 1)
         z = random.uniform(-1, 1)
@@ -31,5 +31,6 @@ def main():
     y = np.sin(u)*np.sin(v)
     z = np.cos(v)
     ax.plot_wireframe(x, y, z, color="r")
+    plt.title(pi)
     plt.show()
 main()
